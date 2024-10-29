@@ -1,0 +1,108 @@
+.work .services__text {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin-bottom: 70px;
+}
+
+.work .services__text span {
+ margin-right: 5px;
+}
+
+.work{
+ padding: 6rem 1rem;
+ border-bottom: 1px solid #e2e2e8;
+}
+.work__wrap .team__card{
+ &:hover{
+  p{
+   background: #75d0fb;
+   color: #fff;
+  }
+ .team__card--text{
+  background: #e5f4fb;
+ }
+ }
+}
+.work__wrap p{
+ display: inline-block;
+ text-transform: uppercase;
+ margin-bottom: 10px;
+ font-size: 13px;
+ background: #f9faff;
+ padding: 3px 8px;
+ border-radius: 4px;
+ transition: all 0.3s ease;
+ text-transform: uppercase;
+ font-weight: 500;
+ letter-spacing: 1px;
+ transition: 0.4s all ease;
+}
+.work__wrap .team__card--text{
+ display: block;
+ width: 100%;
+ padding: 20px;
+ transition: 0.4s all ease;
+}
+.work__wrap .team__card--img{
+ margin-bottom: 0;
+}
+.work__btn--wrap{
+ width: 100%;
+ display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+.work .work__btn{
+ background: #fff;
+&:hover{
+ span{
+  color: #000;
+ }
+ i{
+  color: #000;
+ }
+}
+}
+
+
+
+.caro__wrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.carousel__btns{
+  display: flex;
+  
+ a{
+  &:nth-child(2){
+   background: #1fb6fc;  
+   color: #fff;
+  }
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: black;
+  font-size: 16px;
+  i{
+    color: #000;
+    font-size: 16px;
+  }
+  &:hover{
+   background: #1fb6fc;  
+   color: #fff;
+   i{
+    color: #fff;
+   }
+  }
+ }
+}

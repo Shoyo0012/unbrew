@@ -1,0 +1,62 @@
+.blog {
+ padding: 7rem 7rem;
+}
+
+.blog .team__card {
+ box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.1);
+ height: fit-content;
+}
+
+.blog .team__card:hover p {
+ background: inherit;
+ color: inherit;
+}
+
+.blog .team__card:hover .team__card--text {
+ background: inherit;
+}
+
+.blog .team__card--text {
+ padding: 25px;
+}
+
+.blog .team__card--text h3 {
+ font-size: 20px;
+ font-weight: 700;
+ color: #000;
+}
+
+.blog .team__card--text p {
+ background: #fff;
+}
+
+.blog .team__card--text p span {
+ color: #1fb6fc;
+}
+
+.blog .team__card--img {
+ height: 70%;
+}
+
+@media  (max-width: 1200px) {
+ .blog{
+  padding: 6rem 5rem;
+ }
+}
+
+@media  (max-width: 768px) {
+ .blog{
+  padding: 8rem 2rem;
+ }
+
+}
+@media  (max-width: 400px) {
+ .blog{
+  padding: 8rem 1rem;
+  .team__card{
+   padding-bottom: 0px;
+  }
+ }
+
+
+}
